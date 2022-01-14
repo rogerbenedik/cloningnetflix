@@ -1,0 +1,23 @@
+.movie{
+    display: flex;
+    overflow: auto;
+
+}
+
+.movie img:first-child{
+    margin-left: 12px;
+}
+.movie img:last-child{
+    margin-right: 12px;
+}
+
+.movie img:not(last-child){
+    margin-right: 7px;
+}
+
+.movie img{
+    width: 103px;
+    height: 161px;
+    border-radius: 2px;
+
+}
