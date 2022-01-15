@@ -15,7 +15,7 @@
     margin-right: 7px;
 }
 
-.movie img{
+.movie__img--small{
     width: 103px;
     height: 161px;
     border-radius: 2px;
@@ -25,4 +25,12 @@
 .movie__img--big{
     width: 154px;
     height: 251px;
+}
+
+.movie__img--circle{
+    flex-shrink: 0;
+    object-fit: cover;
+    border-radius: 50%;
+    width: 102px;
+    height: 102px;
 }
