@@ -4,7 +4,6 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: flex-start;
-    
 
 }
 
@@ -14,7 +13,26 @@
 }
 .profile__text{
     font-size: 12px;
-    text-align: center;
+   text-align: center;   
     padding-top: 5px;
 }
+
+.profile--grid{
+    display: grid;
+    grid-gap: 22px;
+    grid-template-columns: 100px 100px;
+    justify-content: center;
+    /* remove padding top */
+    padding-top: 15px;
+}
+
+.profile__text-grid{  
+    font-size: 12px;  
+    padding-top: 5px;}
+
+.profile__img-big{
+    width: 100px;
+    height: 92px;
+}
+
 
