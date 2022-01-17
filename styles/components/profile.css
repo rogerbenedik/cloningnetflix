@@ -10,6 +10,7 @@
 .profile__group img{
     width: 65px;
     margin: 60x;
+    transition: transform ease-in-out 150ms;
 }
 .profile__text{
     font-size: 12px;
@@ -35,4 +36,6 @@
     height: 92px;
 }
 
-
+.profile__group img:hover{
+ transform:scale(1.2);
+}
