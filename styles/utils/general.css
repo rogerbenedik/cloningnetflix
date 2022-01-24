@@ -24,6 +24,9 @@ p,h1,h2,h3,span,strong{
 .content{
     display: block;
 }
+a{
+    text-decoration: none;
+}
 
 
 @media screen and (min-width: 500px) {
