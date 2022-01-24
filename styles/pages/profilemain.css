@@ -1,0 +1,15 @@
+@import url(../utils/index.css);
+@import url(../components/status-bar.css);
+@import url(../components/edit-navbar.css);
+@import url(../pages/profile.css);
+
+.edit-navbar{
+    margin-top: 13px;
+}
+
+.center{
+    display: flex;
+    height: calc(100vh - 80px);
+    justify-content: center;
+    align-items: center;
+}

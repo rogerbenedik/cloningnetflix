@@ -1,0 +1,13 @@
+@import url(../components/logo.css);
+.edit-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    
+
+}
+
+.navbar__space{
+    width: 24px;
+}
