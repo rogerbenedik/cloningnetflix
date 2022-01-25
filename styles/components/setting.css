@@ -1,0 +1,25 @@
+.setting__check{
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom:5px;
+
+      
+}
+.setting-check__text{
+    padding-left: 6px;
+}
+.settings__text{
+    margin-top: 6px;
+    margin-bottom: 6px;
+    line-height: 30px;
+}
+.settings{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.underline{
+    display: block;
+    border-bottom: 1px solid #424242;
+}
