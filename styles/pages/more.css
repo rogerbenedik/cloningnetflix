@@ -1,0 +1,83 @@
+@import url(../utils/index.css);
+@import url(../components/status-bar.css);
+@import url(../components/navbar-bottom.css);
+@import url(../components/profile.css);
+
+
+.share__background{
+    background-color: #1A1A1A;
+}
+.share{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.edit-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+    
+  
+}
+.share-title__h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 14px;
+    margin-left: 9px;
+  
+}
+.share-title__p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 8px;
+}
+.share-terms{
+    text-decoration: underline;
+    font-size: 11px;
+    font-weight: 500;
+    color: #c4c4c4;
+    margin-bottom: 11px;
+}
+.share__copy{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 21px;
+}
+.share-copy__input{
+    outline: none;
+    border: none;
+    font-size: 11px;
+    background-color: black;
+    color: white;
+    padding: 10px 0 10px 0;
+    width: 237px;
+}
+.share-copy__input::placeholder{
+    color: white;
+}
+.share-copy__btn{
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    border-radius: 2px;    
+}
+
+.share-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.division{
+    height: 41px;
+    width: 1px;
+    background-color: #8c8c8c;
+}
